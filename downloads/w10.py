@@ -1,3 +1,4 @@
+import random
 from browser import html, document
 bcd_tem = "https://mdecd2023.github.io/2b2-pj2bg"
 bgithub = "https://github.com/mdecd2023/2b2-pj2bg"
