@@ -149,24 +149,22 @@ img.add_border {
 <p>從 1 累加到 100 part2:</p>
 <p><button id="add1to100part2">1 add to 100</button><button id="cango_three_gears">cango_three_gears</button><button id="bsnake">BSnake</button><button id="aitetris">AI Tetris</button><button id="threejsblock">Rotating Block</button></p>
 <p></p>
-<p></p>
-<p></p>
-<p></p>
-<p></p>
 <div id="kw_editor2" style="width: 600px; height: 300px;"></div>
-<p></p>
 <p></p>
 <form><label>Filename:<span> </span><input id="kw_filename2" placeholder="input file name" type="text"/>.py</label><span> </span><input onclick="doSave('kw_py_src2', 'kw_filename2');" type="submit" value="Save"/></form>
 <p></p>
-<p></p>
-<p></p>
 <p><button id="kw_run2">Run</button><span> </span><button id="kw_show_console2">Output</button><span> </span><button id="kw_clear_console2">清除輸出區</button><button id="clear_bd2">清除繪圖區</button><button onclick="window.location.reload()">Reload</button></p>
-<p></p>
-<p></p>
 <p></p>
 <div style="width: 100%; height: 100%;"><textarea autocomplete="off" id="kw_console2"></textarea></div>
 <p></p>
-<br />0426 << <a href='0426.html'>Previous</a> <a href='40723217-W10.html'>Next</a> >> 40723217-W10</div>
+<!-- 啟動 Brython -->
+<p>
+<script>
+window.onload=function(){
+brython({debug:1, pythonpath:['./../cmsimde/static/','./../downloads/py/']});
+}
+</script>
+</p><br />0426 << <a href='0426.html'>Previous</a> <a href='40723217-W10.html'>Next</a> >> 40723217-W10</div>
         
     <!-- footer -->
       <div class="container">
